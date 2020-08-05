@@ -86,6 +86,13 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: 'Words',
+    date: 'Numbers',
+    firstParagraph: 'The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev\'ry layout! Configure above, then get yer pirate ipsum...own the high seas, arg!',
+    secondParagraph: 'The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev\'ry layout! Configure above, then get yer pirate ipsum...own the high seas, arg!',
+    thirdParagraph: 'The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev\'ry layout! Configure above, then get yer pirate ipsum...own the high seas, arg!',
   }
 ];
 
@@ -144,7 +151,7 @@ function articleMaker (articleData){
   paragraph1.textContent = articleData.firstParagraph
   paragraph2.textContent = articleData.secondParagraph
   paragraph3.textContent = articleData.thirdParagraph
-  expandButton.textContent = 'Open'
+  expandButton.textContent = 'Open Me'
 
   expandButton.addEventListener('click', event=>{
     article.classList.toggle('article-open')
